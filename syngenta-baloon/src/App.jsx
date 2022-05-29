@@ -1,11 +1,20 @@
 import logo from './logo.svg';
 import './App.css';
-import Balloon from './Components/Balloon';
+
+import Game from './Components/Game';
+
 
 function App() {
   return (
     <div className="App">
-      <Balloon/>
+    
+      <Game/>
+      {/* in the game componets could'nt generate random color */}
+
+      
+
+      {/* in the ballon componets there is random color  */}
+   
     </div>
   );
 }
